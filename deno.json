@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "run": "deno run -A main.ts",
+    "list": "deno run -A list.ts"
+  },
+  "imports": {
+    "std/io/buffer": "https://deno.land/std@0.175.0/io/buffer.ts",
+    "std/encoding/base64": "https://deno.land/std@0.175.0/encoding/base64.ts",
+    "std/path/posix": "https://deno.land/std@0.175.0/path/posix.ts",
+    "x/progress": "https://deno.land/x/progress@v1.3.6/mod.ts"
+  }
+}
